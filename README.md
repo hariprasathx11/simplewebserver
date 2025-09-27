@@ -90,8 +90,8 @@ httpd.serve_forever()
 ~~~
 
 ## OUTPUT:
-Screenshot (7).png
-Screenshot (8).png
+<img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/c177c6e4-2b7c-48f8-a6d3-3c1b6c1f7bc2" />
+
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
 
