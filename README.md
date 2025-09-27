@@ -87,10 +87,12 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
 
-~~~
+```
 
 ## OUTPUT:
 <img width="1920" height="1080" alt="Screenshot (7)" src="https://github.com/user-attachments/assets/c177c6e4-2b7c-48f8-a6d3-3c1b6c1f7bc2" />
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/fa60b645-b1df-442a-8093-642d5c14e821" />
+
 
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
