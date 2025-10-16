@@ -1,40 +1,40 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <html>
-    <head>
-        <title>device specifications</title>
-    </head>
-    <body>
-        <h1>device specification-(25017723)</h1>
-        <table border="4" celspacing="4" celpadding=""4> 
-            <tr>
-                <td>S.NO</td>
-                <td>device</td>
-                <td>specifications</td>
-            </tr>
-            <tr>
-                <td>1.</td>
-                <td>dell inspiron3601</td>
-                <td>intelcore i3</td>
-            </tr>
-            <tr>
-                <td>2.</td>
-                <td>desktop-gcl0838</td>
-                <td>15.6 fullHDWVA</td>
-
-            </tr>
-            <tr>
-                <td>2.</td>
-                <td>desktop320-18cd</td>
-                <td>spill-resistant keyboard</td>
-            
-            
-            
-        </table>
-    </body>
-</html>
-
-
+<head>
+<title>localhost:8000</title>
+</head
+<body>
+<table border="2" cellspacing="10" cellpadding="10">
+<caption>Device Specificationn -S. HARIPRASATH 25017723</caption>
+<tr>
+<th>1</th>
+<th>Device name</th>
+<th>TMP215-75-G2</th.
+</tr>
+<tr>
+<th>2</th>
+<th>Processor</th>
+<th>Intel(R) Core(TM) Ultra 5125H (1.20 GHz)</th>
+</tr>
+<tr>
+<th>3</th>
+<th>Installed RAM</th>
+<th>16.0 GB (15.5 GB usable)</th>
+</tr>
+<tr>
+<th>4</th>
+<th>Graphic Card</th>
+<th>128 MB</th>
+</tr>
+<tr>
+<th>5</th>
+<th>Storage</th>
+<th>954 GB</th>
+</tr>
+</table>
+</body>
+</html>   
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
